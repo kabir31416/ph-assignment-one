@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
 nav{
     display: flex;
     max-width: 1600px;
@@ -73,7 +78,9 @@ nav .menu{
 }
 
 .note-section{
+    background-color: #fbfbfb;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .title{
@@ -85,16 +92,17 @@ nav .menu{
 }
 
 .title h3{
+    color: #001931;
     font-size: 48px;
-    font-weight: 700;
+    font-weight: bold;
     margin-top: auto;
 }
 
 .title p{
+    color: #627382;
     font-size: 16px;
     font-weight: 400;
 }
-
 
 
 .card-container{
@@ -129,4 +137,56 @@ nav .menu{
     font-size: 24px;
     font-weight: 600;
 
+}
+
+.solution{
+    padding: 120px;
+}
+
+.sol-container{
+    display: flex;
+    gap: 60px;
+}
+
+.sol-text-ctn{
+    display: flex;
+    flex-direction: column;       
+    justify-content: center;   
+    gap: 16px;   
+}
+
+.point{
+    display: flex;
+}
+
+.point img{
+    margin-right: 6px;
+}
+
+#txt-sol{
+    margin-bottom: 40px;
+}
+
+#txt-sol h6{
+    font-size: 16px;
+    color: #469165;
+    margin-bottom: 16px;
+}
+
+#txt-sol h1{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+#txt-sol p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+}
+
+.point-container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
