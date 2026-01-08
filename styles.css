@@ -64,7 +64,6 @@ nav .menu{
     gap: 16px;
 }
 
-
 .hero-section{
     background-image: url(./assets/hero-bg.png);
    background-size: cover;
@@ -127,15 +126,12 @@ nav .menu{
   background-color: rgba(78, 153, 110, 1);
 }
 
-
-
 .text-div p{
     color: white;
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 32px;
 }
-
 
 #stext{
     font-size: 72px;
@@ -294,4 +290,46 @@ nav .menu{
 .ch-button button{
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
     margin-bottom: 16px;
+}
+
+footer{
+    background-color: #001931;
+    padding: 120px 120px 30px;
+}
+
+.footer-logo-div{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1360px;
+    margin: 0px auto;
+}
+
+.social-container h3{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.social-icon img{
+    margin-right: 16px;
+}
+
+.line{
+    width: 1360px;
+    margin: 80px auto 0px;
+    height: 0;
+    border: 1px solid rgba(229,231,235,1);
+    opacity: 0.2;
+}
+
+.copyright{
+    max-height: 52px;
+    text-align: center;
+
+}
+
+.copyright p{
+    font-size: 16px;
+    color: white;
+    margin-top: 30px;
 }
