@@ -31,6 +31,7 @@ nav .menu{
     padding: 12px 16px;
     background-color: #469165;
     color: white;
+    cursor: pointer;
 }
 
 .hero-section{
@@ -189,4 +190,41 @@ nav .menu{
     display: flex;
     flex-direction: column;
     gap: 16px;
+}
+
+.challenge{
+    background-color: white;
+    padding: 2px 120px 120px;
+}
+
+.ch-container{
+    background-color: #F7F6F2;
+    max-width: 1360px;
+    gap: 24px;
+    margin: 0px auto;
+    padding: 80px 40px;
+    border-radius: 12px;
+    text-align: center;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ch-container p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 24px;
+}
+
+.ch-title h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.ch-button button{
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    margin-bottom: 16px;
 }
