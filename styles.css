@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.inter{
+.inter, .menu, .btn, .btn-tsp{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
@@ -105,7 +105,7 @@ nav .menu{
 .circle1 {
   width: 16px;
   height: 16px;
-  background-color: rgba(78, 153, 110, 0.15);
+  background-color: #4e996e26;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -114,7 +114,7 @@ nav .menu{
 .circle2 {
   width: 12px;
   height: 12px;
-  background-color: rgba(78, 153, 110, 0.3);
+  background-color: #4e996e4d;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -123,7 +123,7 @@ nav .menu{
 .circle3 {
   width: 6px;
   height: 6px;
-  background-color: rgba(78, 153, 110, 1);
+  background-color: #4e996e;
 }
 
 .text-div p{
@@ -198,9 +198,14 @@ nav .menu{
 }
 
 .card-info h3{
+    color: #001931;
     font-size: 24px;
     font-weight: 600;
+}
 
+.card-info p{
+    color: #627382;
+    font-size: 16px;
 }
 
 .solution{
@@ -231,7 +236,7 @@ nav .menu{
     margin-bottom: 40px;
 }
 
-#txt-sol h6{
+.txt-p p{
     font-size: 16px;
     color: #469165;
     margin-bottom: 16px;
@@ -239,6 +244,7 @@ nav .menu{
 
 #txt-sol h1{
     font-size: 48px;
+    color: #001931;
     font-weight: bold;
     margin-bottom: 16px;
 }
@@ -253,6 +259,11 @@ nav .menu{
     display: flex;
     flex-direction: column;
     gap: 16px;
+}
+
+.point p{
+    color: #001931;
+    font-weight: 600;
 }
 
 .challenge-section{
@@ -330,6 +341,7 @@ footer{
 
 .copyright p{
     font-size: 16px;
-    color: white;
+    font-weight: 200;
+    color: #FAFAFA;
     margin-top: 30px;
 }
